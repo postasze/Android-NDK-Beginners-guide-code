@@ -1,0 +1,34 @@
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  a:layout_width="match_parent" a:layout_height="match_parent"
+  a:orientation="vertical"
+tools:context="com.packtpub.store.StoreActivity$PlaceholderFragment">
+  <TextView
+    a:layout_width="match_parent" a:layout_height="wrap_content"
+    a:text="Save or retrieve a value from the store:" />
+  <TableLayout
+    a:layout_width="match_parent" a:layout_height="wrap_content"
+    a:stretchColumns="1" >
+    <TableRow>
+      <TextView a:id="@+id/uiKeyLabel" a:text="Key : " />
+      <EditText a:id="@+id/uiKeyEdit" ><requestFocus /></EditText>
+    </TableRow>
+    <TableRow>
+      <TextView a:id="@+id/uiValueLabel" a:text="Value : " />
+      <EditText a:id="@+id/uiValueEdit" />
+    </TableRow>
+    <TableRow>
+      <TextView a:id="@+id/uiTypeLabel" a:layout_height="match_parent"
+                a:gravity="center_vertical" a:text="Type : " />
+      <Spinner a:id="@+id/uiTypeSpinner" />
+    </TableRow>
+  </TableLayout>
+  <LinearLayout
+    a:layout_width="wrap_content" a:layout_height="wrap_content"
+    a:layout_gravity="right" >
+    <Button a:id="@+id/uiGetValueButton" a:layout_width="wrap_content"
+            a:layout_height="wrap_content" a:text="Get Value" />
+    <Button a:id="@+id/uiSetValueButton" a:layout_width="wrap_content"
+            a:layout_height="wrap_content" a:text="Set Value" />
+  </LinearLayout>
+</LinearLayout>

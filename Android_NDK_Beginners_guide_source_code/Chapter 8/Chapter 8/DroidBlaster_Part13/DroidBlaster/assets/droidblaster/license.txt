@@ -1,0 +1,4 @@
+Credits:
+    bgm.mp3 - Presenterator, from Kevin MacLeod (http://www.incompetech.com)
+    start.pcm - from genghis attenborough (http://www.freesound.org/people/genghis%20attenborough/sounds/32151/)
+
